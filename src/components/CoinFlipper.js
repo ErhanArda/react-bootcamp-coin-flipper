@@ -3,7 +3,7 @@ import './CoinFlipperStyles.css'
 import Coin from "./Coin"
 
 
-const options = ["yazı", "tura"];
+const options = ["Yazı", "Tura"];
 
 const getRandomElFromArr = (arr) => {
     const randomIndex = Math.floor(Math.random() * arr.length);
@@ -34,12 +34,12 @@ class CoinFlipper extends Component {
                 results: [...this.state.results, randomElement],
                 rotate: false
             })
-        },1000);
+        }, 1000);
 
     }
 
     render() {
-        const { currentStatus, rotate, results,start} = this.state;
+        const { currentStatus, rotate, results, start } = this.state;
         return (
             <div>
                 <h1>Yazı ya da Tura</h1>
