@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-bootcamp-coin-flipper/static/css/main.f66e745e.chunk.css",
+    "main.js": "/react-bootcamp-coin-flipper/static/js/main.3cb71e0f.chunk.js",
+    "main.js.map": "/react-bootcamp-coin-flipper/static/js/main.3cb71e0f.chunk.js.map",
+    "runtime-main.js": "/react-bootcamp-coin-flipper/static/js/runtime-main.0823c2e0.js",
+    "runtime-main.js.map": "/react-bootcamp-coin-flipper/static/js/runtime-main.0823c2e0.js.map",
+    "static/js/2.739abd98.chunk.js": "/react-bootcamp-coin-flipper/static/js/2.739abd98.chunk.js",
+    "static/js/2.739abd98.chunk.js.map": "/react-bootcamp-coin-flipper/static/js/2.739abd98.chunk.js.map",
+    "index.html": "/react-bootcamp-coin-flipper/index.html",
+    "precache-manifest.3568411525eeb83ca2d82f53aa1fff88.js": "/react-bootcamp-coin-flipper/precache-manifest.3568411525eeb83ca2d82f53aa1fff88.js",
+    "service-worker.js": "/react-bootcamp-coin-flipper/service-worker.js",
+    "static/css/main.f66e745e.chunk.css.map": "/react-bootcamp-coin-flipper/static/css/main.f66e745e.chunk.css.map",
+    "static/js/2.739abd98.chunk.js.LICENSE.txt": "/react-bootcamp-coin-flipper/static/js/2.739abd98.chunk.js.LICENSE.txt",
+    "static/media/head.png": "/react-bootcamp-coin-flipper/static/media/head.9b70882e.png",
+    "static/media/tail.png": "/react-bootcamp-coin-flipper/static/media/tail.7c42669a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0823c2e0.js",
+    "static/js/2.739abd98.chunk.js",
+    "static/css/main.f66e745e.chunk.css",
+    "static/js/main.3cb71e0f.chunk.js"
+  ]
+}
