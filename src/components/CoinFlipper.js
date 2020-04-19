@@ -17,8 +17,7 @@ class CoinFlipper extends Component {
         this.state = {
             currentStatus: options[0],
             results: [],
-            rotate: false
-
+            rotate: false,
 
         }
     }
@@ -38,8 +37,11 @@ class CoinFlipper extends Component {
 
     }
 
+
     render() {
         const { currentStatus, rotate, results, start } = this.state;
+        const heads = results.filter(randomItem => randomItem === "Yazı").length;
+        const tails = results.filter(randomItem => randomItem === "Tura").length
         return (
             <div>
                 <h1>Yazı ya da Tura</h1>
@@ -50,7 +52,15 @@ class CoinFlipper extends Component {
 
                 {
                     results.length > 0 && !rotate && <h3>{currentStatus} geldi</h3>
+
                 }
+                <p>Toplam <span className="CoinFlipper-number">{results.length}</span> atış yapıldı</p>
+                <p><span className="CoinFlipper-number">{heads}</span> kez <b>Yazı</b> geldi</p>
+                <p><span className="CoinFlipper-number">{tails}</span> kez <b>Tura</b> geldi</p>
+
+
+
+
             </div>
         )
     }
